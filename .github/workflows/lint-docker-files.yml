@@ -4,6 +4,7 @@ jobs:
     lint-docker-files:
         runs-on: ubuntu-latest
         steps:
+        - uses: actions/checkout@v2
         - uses: ghe-actions/dockerfile-validator@v1
             with:
                 dockerfile: './db-ods/Dockerfile'
