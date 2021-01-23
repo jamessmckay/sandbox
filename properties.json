@@ -1,0 +1,20 @@
+{
+  "postgres": {
+    "base": "postgres",
+    "debian": {
+      "version": "12"
+    },
+    "alpine": {
+      "version": "13-alpine"
+    }
+  },
+  "ods": {
+    "base": "mcr.microsoft.com/dotnet/core/aspnet",
+    "debian": {
+      "version" : "3.1"
+    },
+    "alpine": {
+      "version": "3.1-alpine"
+    }
+  }
+}

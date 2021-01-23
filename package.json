@@ -1,0 +1,25 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "render-docker-files": "node render-docker-files.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamessmckay/sandbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamessmckay/sandbox/issues"
+  },
+  "homepage": "https://github.com/jamessmckay/sandbox#readme",
+  "dependencies": {
+    "glob": "^7.1.6",
+    "handlebars": "^4.7.6"
+  }
+}

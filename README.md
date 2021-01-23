@@ -1,0 +1,1 @@
+Sample using npm and node to generate Docker files from a handlebars template
