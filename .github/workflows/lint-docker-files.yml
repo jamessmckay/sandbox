@@ -7,5 +7,17 @@ jobs:
         - uses: actions/checkout@v2
         - uses: ghe-actions/dockerfile-validator@v1
           with:
-            dockerfile: './db-ods/Dockerfile'
+            dockerfile: './db-ods/alpine/Dockerfile'
+            lint: 'hadolint'
+        - uses: ghe-actions/dockerfile-validator@v1
+          with:
+            dockerfile: './db-ods/debian/Dockerfile'
+            lint: 'hadolint'
+        - uses: ghe-actions/dockerfile-validator@v1
+          with:
+            dockerfile: './web-ods/alpine/Dockerfile'
+            lint: 'hadolint'
+        - uses: ghe-actions/dockerfile-validator@v1
+          with:
+            dockerfile: './web-ds/debian/Dockerfile'
             lint: 'hadolint'
