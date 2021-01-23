@@ -10,6 +10,7 @@
   },
   "ods": {
     "base": "mcr.microsoft.com/dotnet/core/aspnet",
+    "version": "5.1.0",
     "debian": {
       "version" : "3.1"
     },
