@@ -1,0 +1,12 @@
+@startuml
+!pragma useVerticalIf on
+start
+:generate dockerfiles;
+:lint dockerfiles;
+if (dockerfiles are valid) then
+    :pass build;
+    stop
+else
+    :fail build;
+    stop
+@enduml
