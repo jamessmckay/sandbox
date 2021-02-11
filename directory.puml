@@ -3,145 +3,153 @@ Title: Proposed Directory Structure
 
 * /
 
+
 ** Db-ODS/
 *** Alpine/
 **** MsSql/
-***** docker template file
 ***** shell scripts
 ***** README.md
-***** Generated Dockerfile
+***** Dockerfile
 **** PgSql/
-***** docker template file
 ***** shell scripts
 ***** README.md
-***** Generated Dockerfile
+***** Dockerfile
 ***[#SkyBlue] Ubuntu/ (future)
 **** MsSql/
-***** docker template file
 ***** shell scripts
 ***** README.md
-***** Generated Dockerfile
+***** Dockerfile
 **** PgSql/
-***** docker template file
 ***** shell scripts
 ***** README.md
-***** Generated Dockerfile
+***** Dockerfile
 
 ** Db-Admin/
 *** Alpine/
 **** MsSql/
-***** docker template file
 ***** shell scripts
 ***** README.md
-***** Generated Dockerfile
+***** Dockerfile
 **** PgSql/
-***** docker template file
 ***** shell scripts
 ***** README.md
-***** Generated Dockerfile
+***** Dockerfile
 ***[#SkyBlue] Ubuntu/ (future)
 **** MsSql/
-***** docker template file
 ***** shell scripts
 ***** README.md
-***** Generated Dockerfile
+***** Dockerfile
 **** PgSql/
-***** docker template file
 ***** shell scripts
 ***** README.md
-***** Generated Dockerfile
+***** Dockerfile
 
 ** Db-Sandbox/
 *** Alpine/
 **** MsSql/
-***** docker template file
 ***** shell scripts
 ***** README.md
-***** Generated Dockerfile
+***** Dockerfile
 **** PgSql/
-***** docker template file
 ***** shell scripts
 ***** README.md
-***** Generated Dockerfile
+***** Dockerfile
 ***[#SkyBlue] Ubuntu/ (future)
 **** MsSql/
-***** docker template file
 ***** shell scripts
 ***** README.md
-***** Generated Dockerfile
+***** Dockerfile
 **** PgSql/
-***** docker template file
 ***** shell scripts
 ***** README.md
-***** Generated Dockerfile
+***** Dockerfile
 
 ** Web-Gateway/
 *** Alpine/
-**** docker template file
 **** shell scripts
 **** appsettings template
-**** Generated Dockerfile
+**** Dockerfile
 **** README.md
 ***[#SkyBlue] Ubuntu/ (future)
-**** docker template file
 **** shell scripts
 **** appsettings template
-**** Generated Dockerfile
+**** Dockerfile
 **** README.md
 
 ** Web-Gateway-Sandbox/
 *** Alpine/
-**** docker template file
 **** shell scripts
 **** appsettings template
-**** Generated Dockerfile
+**** Dockerfile
 **** README.md
 ***[#SkyBlue] Ubuntu/ (future)
-**** docker template file
 **** shell scripts
 **** appsettings template
-**** Generated Dockerfile
+**** Dockerfile
 **** README.md
 
 ** Web-Ods-Api/
 *** Alpine/
-**** docker template file
 **** shell scripts
 **** appsettings template
-**** Generated Dockerfile
+**** Dockerfile
 **** README.md
+
 ***[#SkyBlue] Ubuntu/ (future)
-**** docker template file
 **** shell scripts
 **** appsettings template
-**** Generated Dockerfile
+**** Dockerfile
 **** README.md
 
 ** Web-Sandbox-Admin/
 *** Alpine/
-**** docker template file
 **** shell scripts
 **** appsettings template
-**** Generated Dockerfile
+**** Dockerfile
 **** README.md
 ***[#SkyBlue] Ubuntu/ (future)
-**** docker template file
 **** shell scripts
 **** appsettings template
-**** Generated Dockerfile
+**** Dockerfile
 **** README.md
 
 ** Web-SwaggerUI/
 *** Alpine/
-**** docker template file
 **** shell scripts
 **** appsettings template
-**** Generated Dockerfile
+**** Dockerfile
 **** README.md
 ***[#SkyBlue] Ubuntu/ (future)
-**** docker template file
 **** shell scripts
 **** appsettings template
-**** Generated Dockerfile
+**** Dockerfile
 **** README.md
+
+** Web-Ods-AdminApp/
+*** Alpine/
+**** shell scripts
+**** appsettings template
+**** Dockerfile
+**** README.md
+***[#SkyBlue] Ubuntu/ (future)
+**** shell scripts
+**** appsettings template
+**** Dockerfile
+**** README.md
+
+** Compose/
+*** compose-sandbox-env-build.yml
+*** compose-sandbox-env.yml
+*** compose-shared-instance-env-build.yml
+*** compose-shared-instance-env.yml
+*** sandbox-env-clean.ps1
+*** sandbox-env-up.ps1
+*** shared-instance-env-clean.ps1
+*** shared-instance-env-up.ps1
+
+** .env.example
+** LICENSE
+** NOTICES.md
+** CONTRIBUTORS.md
+** README.md
 @endwbs
