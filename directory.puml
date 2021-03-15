@@ -15,14 +15,7 @@ Title: Proposed Directory Structure
 ***** README.md
 ***** Dockerfile
 ***[#SkyBlue] Ubuntu/ (future)
-**** MsSql/
-***** shell scripts
-***** README.md
-***** Dockerfile
-**** PgSql/
-***** shell scripts
-***** README.md
-***** Dockerfile
+**** ...
 
 ** Db-Admin/
 *** Alpine/
@@ -35,14 +28,7 @@ Title: Proposed Directory Structure
 ***** README.md
 ***** Dockerfile
 ***[#SkyBlue] Ubuntu/ (future)
-**** MsSql/
-***** shell scripts
-***** README.md
-***** Dockerfile
-**** PgSql/
-***** shell scripts
-***** README.md
-***** Dockerfile
+**** ...
 
 ** Db-Sandbox/
 *** Alpine/
@@ -55,26 +41,12 @@ Title: Proposed Directory Structure
 ***** README.md
 ***** Dockerfile
 ***[#SkyBlue] Ubuntu/ (future)
-**** MsSql/
-***** shell scripts
-***** README.md
-***** Dockerfile
-**** PgSql/
-***** shell scripts
-***** README.md
-***** Dockerfile
+**** ...
 
 ** Web-Gateway/
 *** Alpine/
-**** shell scripts
-**** appsettings template
-**** Dockerfile
-**** README.md
 ***[#SkyBlue] Ubuntu/ (future)
-**** shell scripts
-**** appsettings template
-**** Dockerfile
-**** README.md
+**** ...
 
 ** Web-Gateway-Sandbox/
 *** Alpine/
@@ -83,35 +55,40 @@ Title: Proposed Directory Structure
 **** Dockerfile
 **** README.md
 ***[#SkyBlue] Ubuntu/ (future)
-**** shell scripts
-**** appsettings template
-**** Dockerfile
-**** README.md
+**** ...
 
 ** Web-Ods-Api/
 *** Alpine/
-**** shell scripts
-**** appsettings template
-**** Dockerfile
-**** README.md
+**** MsSql/
+***** shell scripts
+***** appsettings template
+***** Dockerfile
+***** README.md
+**** PgSql/
+***** shell scripts
+***** appsettings template
+***** Dockerfile
+***** README.md
 
 ***[#SkyBlue] Ubuntu/ (future)
-**** shell scripts
-**** appsettings template
-**** Dockerfile
-**** README.md
+**** ...
+
 
 ** Web-Sandbox-Admin/
 *** Alpine/
-**** shell scripts
-**** appsettings template
-**** Dockerfile
-**** README.md
+**** MsSql/
+***** shell scripts
+***** appsettings template
+***** Dockerfile
+***** README.md
+**** PgSql/
+***** shell scripts
+***** appsettings template
+***** Dockerfile
+***** README.md
 ***[#SkyBlue] Ubuntu/ (future)
-**** shell scripts
-**** appsettings template
-**** Dockerfile
-**** README.md
+**** ...
+
 
 ** Web-SwaggerUI/
 *** Alpine/
@@ -119,23 +96,26 @@ Title: Proposed Directory Structure
 **** appsettings template
 **** Dockerfile
 **** README.md
+
 ***[#SkyBlue] Ubuntu/ (future)
-**** shell scripts
-**** appsettings template
-**** Dockerfile
-**** README.md
+**** ...
 
 ** Web-Ods-AdminApp/
 *** Alpine/
-**** shell scripts
-**** appsettings template
-**** Dockerfile
-**** README.md
+**** MsSql/
+***** shell scripts
+***** appsettings template
+***** Dockerfile
+***** README.md
+**** PgSql/
+***** shell scripts
+***** appsettings template
+***** Dockerfile
+***** README.md
+
 ***[#SkyBlue] Ubuntu/ (future)
-**** shell scripts
-**** appsettings template
-**** Dockerfile
-**** README.md
+**** ...
+
 
 ** Compose/
 *** compose-sandbox-env-build.yml
